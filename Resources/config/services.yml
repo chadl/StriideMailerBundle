@@ -1,0 +1,8 @@
+parameters:
+
+services:
+  striide_mailer.mail.service:
+    class: Striide\MailerBundle\Service\MailerService
+    arguments: [@logger]
+    calls:
+      - [setEmailService, [@mailer]]
