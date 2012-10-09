@@ -20,5 +20,5 @@
 			"Striide\\MailerBundle": ""
 		}
 	},
-	"target-dir": "Striide/StriideMailerBundle"
+	"target-dir": "StriideMailerBundle"
 }
